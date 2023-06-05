@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville';
+}
+
+:root {
+  background-image: url(https://images.unsplash.com/photo-1555066932-e78dd8fb77bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+  background-repeat: no-repeat;
+  background-size: 100%;
+;}
+
+.link-tree {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+
+}
+
+.link-tree img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: solid 3px #ECDBBA;
+}
+
+.link-tree a {
+  text-decoration: none;
+  background-color: #2F8886;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  cursor: default;
+  color: #26282B;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+.link-tree a:hover {
+  color: #DDE6ED;
+}
+
+.link-tree h4 {
+  font-size: 20px;
+  color: #ECDBBA;
+}
+
+
+
+
